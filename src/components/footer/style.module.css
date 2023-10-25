@@ -1,0 +1,11 @@
+.footer{
+    background: var(--dark, #072125);
+    padding-block: 40px;
+    border-top: 1px solid black;
+}
+
+.footer__title{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}

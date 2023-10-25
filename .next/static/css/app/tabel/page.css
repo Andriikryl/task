@@ -1,0 +1,84 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/container/style.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.style_container__s9_0y{
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    height: 100%;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/TestOne/style.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.style_tabel__section__r7PY9{
+  padding-block: 100px;
+}
+
+
+.style_tabel__p9vn0{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #a8dadc;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+  }
+
+  .style_tbody__8_BQf:nth-of-type(2n) .style_tr__ZvIin{
+    background-color: hsl(182, 43%, 46%, .5) !important;
+  }
+  
+  .style_caprion__2c17b, .style_types__LBhy_, .style_answer__rTixV{
+    padding: 1rem;
+  }
+  
+  .style_caprion__2c17b, .style_types__LBhy_{
+    text-align: left;
+  }
+  
+  .style_caprion__2c17b{
+    background-color: #f1faee;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  var(--dark, #072125);
+  }
+  
+  .style_types__LBhy_{
+    background-color: #457b9d;
+    color: #ffff;
+  }
+  
+
+  @media(max-width: 650px){
+    .style_types__LBhy_{
+        display: none;
+    }
+    .style_answer__rTixV{
+        display: grid;
+        grid-template-columns: 15ch auto;
+        grid-gap: 1rem;
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+    }
+  
+    .style_answer__rTixV:first-child{
+        padding: 1rem;
+    }
+  
+    .style_answer__rTixV:last-child{
+        padding: 1rem;
+    }
+  
+    .style_answer__rTixV::before{
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+  }

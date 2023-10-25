@@ -1,0 +1,71 @@
+.tabel__section{
+  padding-block: 100px;
+}
+
+
+.tabel{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #a8dadc;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+  }
+
+  .tbody:nth-of-type(2n) .tr{
+    background-color: hsl(182, 43%, 46%, .5) !important;
+  }
+  
+  .caprion, .types, .answer{
+    padding: 1rem;
+  }
+  
+  .caprion, .types{
+    text-align: left;
+  }
+  
+  .caprion{
+    background-color: #f1faee;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  var(--dark, #072125);
+  }
+  
+  .types{
+    background-color: #457b9d;
+    color: #ffff;
+  }
+  
+
+  @media(max-width: 650px){
+    .types{
+        display: none;
+    }
+    .answer{
+        display: grid;
+        grid-template-columns: 15ch auto;
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+    }
+  
+    .answer:first-child{
+        padding: 1rem;
+    }
+  
+    .answer:last-child{
+        padding: 1rem;
+    }
+  
+    .answer::before{
+        content: attr(data-cell) ": ";
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+  }

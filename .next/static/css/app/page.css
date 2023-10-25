@@ -1,0 +1,110 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/container/style.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.style_container__s9_0y{
+    max-width: 1320px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    height: 100%;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/components/Login/style.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.style_form__page__rnhy5{
+    height: 100%;
+    padding-block: 100px;
+}
+
+.style_form__box__QVS7n{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.style_form__H64wF{
+    padding-block: 60px;
+    padding-inline: 59px;
+    max-width: 590px;
+    border-radius: 12px;
+    background: var(--white, #FFF);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+.style_form__title__vB2ee{
+    color: var(--dark-green, #20484F);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-margin-after: 48px;
+            margin-block-end: 48px;
+}
+
+.style_flex__group__Qmrea{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    -webkit-margin-after: 32px;
+            margin-block-end: 32px;
+}
+
+.style_label__8d4yQ{
+    color: var(--dark, #072125);
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.style_input__OrgWE{
+    padding-block: 12px;
+    -webkit-padding-start: 16px;
+            padding-inline-start: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border, rgba(32, 72, 79, 0.10));
+    background: var(--white, #FFF);
+    color: var(--border-hover, rgba(32, 72, 79, 0.20));
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.style_from__description__B4ahi{
+    display: block;
+    text-align: center;
+    color: var(--dark, #072125);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+
+.style_form__btn__oK_wv{
+    width: 100%;
+    padding: 16px 36px;
+    border-radius: 8px;
+    background: var(--dark-green, #20484F);
+    color: var(--white, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    border: none;
+    cursor: pointer;
+    -webkit-margin-after: 24px;
+            margin-block-end: 24px;
+}
+
